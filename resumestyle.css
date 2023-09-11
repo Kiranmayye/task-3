@@ -1,0 +1,187 @@
+section{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:cursive;
+}
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position:relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display:grid ;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side
+{
+    position: relative;
+    background:darkcyan;
+    padding: 40px;
+}
+.profiletext
+{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profiletext.imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profiletext.profiletext.imgBx photoMWYHO1.jpg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: radius 100px; 
+}
+.profiletext h2
+{
+    color: maroon;
+    font-size: 0.75cm;
+    margin: 20px;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.contactinfo
+{
+    padding-top: 40px;
+}
+.title
+{
+    color:darkgoldenrod;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactinfo ul
+{
+    position: relative;
+}
+.contactinfo ul li
+{
+    position: relative;
+    list-style: none;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.education
+{
+    margin-bottom: 15px;
+}
+.education h5
+{
+    color:darkseagreen ;
+    padding-bottom: 0px;
+}
+.education h4
+{
+    color:brown;
+    padding-bottom: 0px;
+}
+.languages
+{
+    margin-bottom: 15px;
+}
+.languages li
+{
+    color:black;
+    padding-bottom: 0px;
+}
+.container .right_side
+{
+    position: relative;
+    background-color: whitesmoke;
+    padding: 40px;
+}
+.title2
+{
+    color: purple ;
+}
+p
+{
+    color:#333;
+    letter-spacing:0px;
+}
+.coding h2
+{
+    color: deeppink;
+}
+.coding
+{
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+    letter-spacing: 0px;
+}
+.goals
+{
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+    letter-spacing: 0px;
+    color:#333;
+}
+.goals h2
+{
+    color:dodgerblue;
+}
+.goals h3
+{
+    color: darkgreen;
+}
+.hobbies
+{
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+    letter-spacing: 0px;
+    color:#333;
+}
+.hobbies h2
+{
+    color:forestgreen;
+}
+.strengths
+{
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+    letter-spacing: 0px;
+    color:#333;
+}
+.strengths h2
+{
+    color:purple;
+}
+.about h1
+{
+    font-style: inherit;
+    margin-bottom: 50px;
+}
+.about h2
+{
+    font-family:inherit;
+    margin-bottom: 50px;
+}
